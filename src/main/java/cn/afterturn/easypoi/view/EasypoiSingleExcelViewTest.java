@@ -50,6 +50,7 @@ public class EasypoiSingleExcelViewTest {
         map.put(NormalExcelConstants.DATA_LIST, list);
         map.put(NormalExcelConstants.CLASS, MsgClient.class);
         map.put(NormalExcelConstants.PARAMS, params);
+
         return NormalExcelConstants.EASYPOI_EXCEL_VIEW;
 
     }
